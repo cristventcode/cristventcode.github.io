@@ -1,0 +1,106 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> Sampe Form </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <div id="content-wrapper">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true"
+          aria-controls="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"> Month 1 Project </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Album Search<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="/pages/formPage">Sample Form</a></li>
+          <li><a href="/pages/aboutPage">About</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse -->
+    </div>
+  </nav>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="container" id="page-heading">
+    <h1>Sample Form</h1>
+  
+  <div id="form-reflector" class="panel panel-default">
+    <div class="panel-heading">
+      <h4> Form Reflector </h4>
+    </div>
+    <div class="panel-body">
+    <form id="form-formPage" action="http://formreflector.azurewebsites.net/form-reflector/" method="POST">
+      <div class="form-group">
+        <label for="first-name"> First Name </label>
+        <input type="text" class="form-control" id="first-name" name="person-first-name" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <label for="last-name"> Last Name </label>
+        <input type="text" class="form-control" id="last-name" name="person-last-name" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="email"> Email </label>
+        <input type="email" class="form-control" id="email" name="person-email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="color-pick">Select Color</label>
+        <select multiple class="form-control" id="color-pick" name="person-color">
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        </select>
+      </div>
+      <button class="btn btn-success" type="submit"> Submit </button>
+    </form>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+    <footer>
+      <p>&copy; Ventura 2017</p>
+    </footer>
+  </div>
+  </div>
+  <!-- /container -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="/js/vendor/bootstrap.min.js"></script>
+  <script src="/js/plugins.js"></script>
+</body>
+
+</html>
