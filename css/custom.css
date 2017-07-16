@@ -1,0 +1,221 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Background hero image */
+#hero-holder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#hero-holder .hero-img {
+    position: absolute;
+    background-image: url("../images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+/* --- */
+
+
+/* Small top logo */
+#top-logo-holder {
+    padding: 0px 20px 20px 20px;
+    text-align: right;
+}
+
+#top-logo-holder img {
+    position: relative;
+    top: 25px;
+}
+/* --- */
+
+
+/* Text, Font Styles*/
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+li {
+    text-indent: -13px;
+}
+
+.letter-space-2 {
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.font-xl {
+    font-size: x-large;
+    line-height: 1;
+}
+/* --- */
+
+
+/* Main content holder, small and large sub holder  */
+#content-main {
+    margin: 0px auto;
+    float: none;
+    margin-top: 60px !important;
+    position: relative;
+}
+
+#top-sm-holder {
+    background: rgba(0, 158, 219, 0.7);
+    padding: 20px 20px 15px 20px;
+}
+
+#top-sm-holder section {
+    font-size: 22px;
+    color: white;
+    max-width: 333.33px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.27;
+}
+
+#top-sm-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#btm-lg-holder h5 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    line-height: 1.088;
+}
+
+#btm-lg-holder {
+    margin-top: 10px;
+    background: rgba(0, 158, 219, 0.7);
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#btm-lg-left-col p,
+ul {
+    line-height: 1.088;
+}
+
+#btm-lg-left-col li {
+    list-style-type: none;
+}
+
+#btm-lg-left-col ul {
+    margin-top: -8px;
+    margin-left: 30px;
+}
+
+#btm-lg-left-col ul li ul {
+    margin-left: 30px;
+}
+/* --- */
+
+
+/* Form, Input, Button styles */
+form {
+    margin-bottom: 0px;
+}
+
+#btm-lg-right-col input {
+    font-size: 18px;
+    color: rgb(0, 179, 228);
+    font-weight: bolder;
+}
+
+input {
+    height: 34px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    font-size: 18px !important;
+}
+
+.submit-btn {
+    width: 133px !important;
+    height: 29px !important;
+    padding-left: 20px;
+    line-height: 1 !important;
+    font-size: 17px !important;
+    font-weight: 200 !important;
+    color: white !important;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.submit-btn img {
+    position: relative;
+    top: 2.5px;
+    left: 4px;
+}
+/* --- */
+
+
+/* Footer text and logo*/
+footer {
+    margin-bottom: 50px;
+    padding: 20px 40px;
+}
+
+footer p {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    position: relative;
+    margin: 0px auto;
+}
+/* --- */
+
+
+#confirmation-section {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+@media (min-width: 750px) {
+    #top-logo-holder img {
+        top: 27px;
+        right: 0px;
+        width: 49px;
+        height: 36px;
+    }
+    #top-sm-holder,
+    #btm-lg-holder,
+    footer {
+        padding-left: 40px;
+        padding-right: 45px;
+    }
+    footer p {
+        text-align: left;
+    }
+    footer img {
+        position: relative;
+        float: right;
+    }
+}
